@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="light-theme">
+<button id="theme-toggle">Theme toggle</button>
+
+<div class="calculator light-theme">
+    <div class="panel" id="panel"></div>
+    <div class="buttons">
+        <button onclick="buttonClicked('1')">1</button>
+        <button onclick="buttonClicked('2')">2</button>
+        <button onclick="buttonClicked('3')">3</button>
+        <button onclick="buttonClicked('+')">+</button>
+        <button onclick="buttonClicked('4')">4</button>
+        <button onclick="buttonClicked('5')">5</button>
+        <button onclick="buttonClicked('6')">6</button>
+        <button onclick="buttonClicked('-')">-</button>
+        <button onclick="buttonClicked('7')">7</button>
+        <button onclick="buttonClicked('8')">8</button>
+        <button onclick="buttonClicked('9')">9</button>
+        <button onclick="buttonClicked('x')">X</button>
+        <button onclick="buttonClicked('.')">.</button>
+        <button onclick="buttonClicked('0')">0</button>
+        <button onclick="buttonClicked('/')">/</button>
+        <button onclick="buttonClicked('C')">C</button>
+    </div>
+    <div class="calculation-button">
+        <button onclick="buttonClicked('=')">=</button>
+    </div>
+</div>
+<script src="/calculator.js"></script>
+<script src="/theme.js"></script>
+<script src="https://kit.fontawesome.com/be49346d7d.js" crossorigin="anonymous"></script>
+</body>
+</html>
